@@ -70,7 +70,7 @@ EOT
         $email      = $input->getArgument('email');
         $password   = $input->getArgument('password');
         $inactive   = $input->getOption('inactive');
-        $superadmin = $input->getOption('super-admin');
+        //$superadmin = $input->getOption('super-admin');
 
         $user = new Users();
         $user->setUsername($username);
