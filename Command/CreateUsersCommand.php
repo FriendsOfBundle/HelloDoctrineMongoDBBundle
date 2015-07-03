@@ -79,10 +79,10 @@ EOT
         $user->setEnabled((Boolean) !$inactive);
         //$user->setSuperAdmin((Boolean) $superadmin);
 
-        //$dm = $this->getContainer()->get('doctrine_mongodb')->getManager();
+        $dm = $this->getContainer()->get('doctrine_mongodb')->getManager();
 
         //etrieve the configured document manager services which utilize the above connection services
-        $dm = $this->getContainer()->get('doctrine_mongodb.odm.additional_document_manager');
+        //$dm = $this->getContainer()->get('doctrine_mongodb.odm.additional_document_manager');
         $dm->persist($user);
         $dm->flush();
 
