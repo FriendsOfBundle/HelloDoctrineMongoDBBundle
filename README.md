@@ -1,12 +1,12 @@
 # HelloDoctrineMongoDBBundle
 ==========================
+[![Latest Stable Version](https://poser.pugx.org/hgtan/doctrine-mongodb-bundle/v/stable.svg)](https://packagist.org/packages/hgtan/doctrine-mongodb-bundle) [![Total Downloads](https://poser.pugx.org/hgtan/doctrine-mongodb-bundle/downloads.svg)](https://packagist.org/packages/hgtan/doctrine-mongodb-bundle) [![Latest Unstable Version](https://poser.pugx.org/hgtan/doctrine-mongodb-bundle/v/unstable.svg)](https://packagist.org/packages/hgtan/doctrine-mongodb-bundle) [![License](https://poser.pugx.org/hgtan/doctrine-mongodb-bundle/license.svg)](https://packagist.org/packages/hgtan/doctrine-mongodb-bundle)
 Just a simple example bundle using MongoDB Object Document Mapper (ODM) and the following Bundles:
 * [DoctrineMongoDBBundle](https://github.com/doctrine/DoctrineMongoDBBundle)
 * 
 
 Installation
 ------------
-[![Latest Stable Version](https://poser.pugx.org/hgtan/doctrine-mongodb-bundle/v/stable.svg)](https://packagist.org/packages/hgtan/doctrine-mongodb-bundle) [![Total Downloads](https://poser.pugx.org/hgtan/doctrine-mongodb-bundle/downloads.svg)](https://packagist.org/packages/hgtan/doctrine-mongodb-bundle) [![Latest Unstable Version](https://poser.pugx.org/hgtan/doctrine-mongodb-bundle/v/unstable.svg)](https://packagist.org/packages/hgtan/doctrine-mongodb-bundle) [![License](https://poser.pugx.org/hgtan/doctrine-mongodb-bundle/license.svg)](https://packagist.org/packages/hgtan/doctrine-mongodb-bundle)
 
 ### Step 1: Using Composer
 
