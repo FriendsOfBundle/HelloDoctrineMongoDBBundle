@@ -10,6 +10,7 @@
             "homepage": "https://hoangthienan.com"
         }
     ],
+    "minimum-stability" : "dev",
     "require": {
         "doctrine/mongodb-odm": "1.0.*@dev",
         "doctrine/mongodb-odm-bundle": "3.0.*@dev"
