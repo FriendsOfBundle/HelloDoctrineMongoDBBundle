@@ -4,7 +4,6 @@
 
 Just a simple example bundle using MongoDB Object Document Mapper (ODM) and the following Bundles:
 * [DoctrineMongoDBBundle](https://github.com/doctrine/DoctrineMongoDBBundle)
-* 
 
 Installation
 ------------
