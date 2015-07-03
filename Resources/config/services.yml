@@ -1,0 +1,4 @@
+services:
+#    hgtan_hello_doctrine_mongodb.example:
+#        class: Hgtan\Bundle\HelloDoctrineMongoDBBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

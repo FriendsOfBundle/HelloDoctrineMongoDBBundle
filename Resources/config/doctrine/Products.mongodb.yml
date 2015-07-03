@@ -1,0 +1,22 @@
+Hgtan\Bundle\HelloDoctrineMongoDBBundle\Document\Products:
+    fields:
+        id:
+            id: true
+        productCode:
+            type: string
+        productName:
+            type: string
+        productLine:
+            type: string
+        productScale:
+            type: string
+        productVendor:
+            type: string
+        productDescription:
+            type: string
+        quantityInStock:
+            type: int
+        buyPrice:
+            type: float
+        MSRP:
+            type: float

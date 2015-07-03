@@ -1,0 +1,27 @@
+{
+    "name": "hgtan/mongo-odm-bundle",
+    "type": "symfony-bundle",
+    "description": "Hello Symfony2 Doctrine MongoDB Bundle",
+    "homepage": "http://hoangthienan.github.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoang Thien An",
+            "homepage": "https://hoangthienan.com"
+        }
+    ],
+    "require": {
+        "doctrine/mongodb-odm": "1.0.*@dev",
+        "doctrine/mongodb-odm-bundle": "3.0.*@dev"
+    },
+    "autoload": {
+        "psr-4":{
+            "Hgtan\\Bundle\\HelloDoctrineMongoDBBundle\\": ""            
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.1-dev"
+        }
+    }
+}

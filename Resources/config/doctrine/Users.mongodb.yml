@@ -1,0 +1,51 @@
+Hgtan\Bundle\HelloDoctrineMongoDBBundle\Document\Users:
+    fields:
+        id:
+            id: true
+        username:
+            type: string
+        usernameCanonical:
+            type: string
+        email:
+            type: string
+        emailCanonical:
+            type: string
+        enabled:
+            type: boolean
+        salt:
+            type: string
+        password:
+            type: string
+        lastLogin:
+            type: date
+        locked:
+            type: boolean
+        expired:
+            type: boolean
+        expiresAt:
+            type: date
+        confirmationToken:
+            type: string
+        passwordRequestedAt:
+            type: date
+        roles:
+            type: collection
+        credentialsExpired:
+            type: boolean
+        credentialsExpireAt:
+            type: date
+    indexes:
+        index1:
+            keys:
+                usernameCanonical: asc
+            options:
+                unique: true
+                dropDups: true
+                safe: true
+        index2:
+            keys:
+                emailCanonical: asc
+            options:
+                unique: true
+                dropDups: true
+                safe: true

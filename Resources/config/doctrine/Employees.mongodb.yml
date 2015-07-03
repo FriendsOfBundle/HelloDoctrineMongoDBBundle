@@ -1,0 +1,20 @@
+Hgtan\Bundle\HelloDoctrineMongoDBBundle\Document\Employees:
+    fields:
+        id:
+            id: true
+        employeeNumber:
+            type: int
+        lastName:
+            type: string
+        firstName:
+            type: string
+        extension:
+            type: string
+        email:
+            type: string
+        officeCode:
+            type: string
+        reportsTo:
+            type: int
+        jobTitle:
+            type: string

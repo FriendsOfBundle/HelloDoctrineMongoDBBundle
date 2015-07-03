@@ -1,0 +1,12 @@
+Hgtan\Bundle\HelloDoctrineMongoDBBundle\Document\Payments:
+    fields:
+        id:
+            id: true
+        customerNumber:
+            type: int
+        checkNumber:
+            type: string
+        paymentDate:
+            type: date
+        amount:
+            type: float

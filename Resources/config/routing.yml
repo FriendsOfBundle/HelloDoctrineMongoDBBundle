@@ -1,0 +1,3 @@
+hgtan_hello_doctrine_mongodb_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: HelloDoctrineMongoDBBundle:Default:index }

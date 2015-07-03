@@ -1,0 +1,105 @@
+<?php
+namespace Acme\StoreBundle\Document;
+
+class Product
+{
+    protected $name;
+
+    protected $price;
+    /**
+     * @var MongoId $id
+     */
+    protected $id;
+
+    /**
+     * @var date $lastmodified
+     */
+    protected $lastmodified;
+
+    /**
+     * @var int $isdeleted
+     */
+    protected $isdeleted;
+
+    /**
+     * @var string $modifiedby
+     */
+    protected $modifiedby;
+
+
+    /**
+     * Get id
+     *
+     * @return id $id
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set lastmodified
+     *
+     * @param date $lastmodified
+     * @return self
+     */
+    public function setLastmodified($lastmodified)
+    {
+        $this->lastmodified = $lastmodified;
+        return $this;
+    }
+
+    /**
+     * Get lastmodified
+     *
+     * @return date $lastmodified
+     */
+    public function getLastmodified()
+    {
+        return $this->lastmodified;
+    }
+
+    /**
+     * Set isdeleted
+     *
+     * @param int $isdeleted
+     * @return self
+     */
+    public function setIsdeleted($isdeleted)
+    {
+        $this->isdeleted = $isdeleted;
+        return $this;
+    }
+
+    /**
+     * Get isdeleted
+     *
+     * @return int $isdeleted
+     */
+    public function getIsdeleted()
+    {
+        return $this->isdeleted;
+    }
+
+    /**
+     * Set modifiedby
+     *
+     * @param string $modifiedby
+     * @return self
+     */
+    public function setModifiedby($modifiedby)
+    {
+        $this->modifiedby = $modifiedby;
+        return $this;
+    }
+
+    /**
+     * Get modifiedby
+     *
+     * @return string $modifiedby
+     */
+    public function getModifiedby()
+    {
+        return $this->modifiedby;
+    }
+}

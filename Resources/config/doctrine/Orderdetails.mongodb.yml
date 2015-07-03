@@ -1,0 +1,14 @@
+Hgtan\Bundle\HelloDoctrineMongoDBBundle\Document\Orderdetails:
+    fields:
+        id:
+            id: true
+        orderNumber:
+            type: int
+        productCode:
+            type: string
+        quantityOrdered:
+            type: int
+        priceEach:
+            type: float
+        orderLineNumber:
+            type: int

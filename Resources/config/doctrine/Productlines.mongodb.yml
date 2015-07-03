@@ -1,0 +1,12 @@
+Hgtan\Bundle\HelloDoctrineMongoDBBundle\Document\Productlines:
+    fields:
+        id:
+            id: true
+        productLine:
+            type: int
+        textDescription:
+            type: string
+        htmlDescription:
+            type: string
+        image:
+            type: file

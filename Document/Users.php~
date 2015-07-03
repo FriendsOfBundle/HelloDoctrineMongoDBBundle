@@ -1,0 +1,7 @@
+<?php
+namespace Acme\StoreBundle\Document;
+
+class Users
+{
+
+}

@@ -1,0 +1,22 @@
+Hgtan\Bundle\HelloDoctrineMongoDBBundle\Document\Offices:
+    fields:
+        id:
+            id: true
+        officeCode:
+            type: int
+        city:
+            type: string
+        phone:
+            type: string
+        addressLine1:
+            type: string
+        addressLine2:
+            type: string
+        state:
+            type: string
+        country:
+            type: int
+        postalCode:
+            type: string
+        territory:
+            type: string

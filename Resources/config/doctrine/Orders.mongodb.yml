@@ -1,0 +1,18 @@
+Hgtan\Bundle\HelloDoctrineMongoDBBundle\Document\Orders:
+    fields:
+        id:
+            id: true
+        orderNumber:
+            type: int
+        orderDate:
+            type: date
+        requiredDate:
+            type: date
+        shippedDate:
+            type: date
+        status:
+            type: string
+        comments:
+            type: string
+        customerNumber:
+            type: int
