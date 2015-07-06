@@ -36,7 +36,7 @@ Then register the bundle with your kernel:
     // in AppKernel::registerBundles()
     $bundles = array(
         // ...
-        new Hgtan\Bundle\HelloDoctrineMongoDBBundle\HelloDoctrineMongoDBBundle(),
+        new Hgtan\Bundle\HelloDoctrineMongoDBBundle\HgtanHelloDoctrineMongoDBBundle(),
         // ...
     );
 ```
