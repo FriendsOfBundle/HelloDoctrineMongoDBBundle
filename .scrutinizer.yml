@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 filter:
     paths: [src/*]
     excluded_paths: [bin/*, tests/*, examples/*, vendor/*]
@@ -31,3 +32,11 @@ tools:
         filter:
             paths: ['src/*', 'tests/*']
     sensiolabs_security_checker: true
+=======
+imports:
+    - php
+
+tools:
+    external_code_coverage:
+        timeout: 1200    # Timeout in seconds.
+>>>>>>> 0b44794f8ce2357e7afdda6c257010421ed8b387

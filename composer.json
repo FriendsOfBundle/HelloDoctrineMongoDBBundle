@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "doctrine/mongodb-odm": "1.0.*@dev",
-        "doctrine/mongodb-odm-bundle": "3.0.*@dev"
+        "doctrine/mongodb-odm": "dev-master",
+        "doctrine/mongodb-odm-bundle": "dev-master"
     },
     "autoload": {
         "psr-4":{
@@ -23,5 +23,6 @@
         "branch-alias": {
             "dev-master": "1.0.1-dev"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
