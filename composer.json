@@ -15,7 +15,7 @@
         "doctrine/mongodb-odm-bundle": "dev-master"
     },
     "autoload": {
-        "psr-4":{
+        "psr-4": {
             "Hgtan\\Bundle\\HelloDoctrineMongoDBBundle\\": ""            
         }
     },
