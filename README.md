@@ -43,8 +43,6 @@ Then register the bundle with your kernel:
 
 ### Step 3 : Configure the bundle
 
-Then register the bundle with your kernel:
-
 ```
     # app/config/config.yml
     
